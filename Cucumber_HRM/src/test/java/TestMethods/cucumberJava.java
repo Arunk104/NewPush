@@ -32,6 +32,7 @@ public class cucumberJava
       if(driver.findElement(By.xpath("//input[@value='Log In']")).isDisplayed()) 
       { 
          System.out.println("Test 1 Pass"); 
+	    System.out.println("Test 1 pass");  
       } else { 
          System.out.println("Test 1 Fail"); 
       } 
